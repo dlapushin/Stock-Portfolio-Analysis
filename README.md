@@ -1,6 +1,9 @@
-# Equity Technical Charting
+# Equity Technical Charts
+*Work in Progress*. Equity investors with many stocks in their portfolio need a tool to quickly create technical charts for multiple tickers.  The Jupyter notebook below will create an up- to-date chart for each provided ticker along with an over-bought or over-sold indicator (a triangle icon) based on prices above or below respective Bollinger Bands.  The Bollinger Bands can be configured for any time window and the default confidence level is 99% (2.33 standard deviations) although can be readily changed.
 
+This code implements a python class (equity_summary) which I will extend with additional methods over time.
 
+## Load libraries
 ```python
 import warnings
 warnings.filterwarnings('ignore')
